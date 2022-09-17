@@ -1,4 +1,4 @@
-  /* @pjs preload="exit_stairs.png,elevator_hotel.png,entrance_x.png,fitness_room.png,reception_icon.png,red_carpet.png,spa_icon.png,bed_room_x.png"; */
+  /* @pjs preload="/p1.Sebastian.Baglo/exit_stairs.png,/p1.Sebastian.Baglo/elevator_hotel.png,/p1.Sebastian.Baglo/entrance_x.png,/p1.Sebastian.Baglo/fitness_room.png,/p1.Sebastian.Baglo/reception_icon.png,/p1.Sebastian.Baglo/red_carpet.png,/p1.Sebastian.Baglo/spa_icon.png,/p1.Sebastian.Baglo/bed_room_x.png"; */
 
 String[] floors = {"R", "2", "3", "4", "5"};
 int[] pos_y_floor_text = {508, 428, 348, 268, 188};
