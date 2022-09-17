@@ -6,7 +6,7 @@ Does this work. Test test Potteeet
 <head>
 <script src="/processing.min.js" type="text/javascript"></script>
 
-<canvas data-processing-sources="Button_class_test.pde"></canvas>
+<canvas data-processing-sources="/p1.Sebastian.Baglo/HMI_project1.pde"></canvas>
 </head>
 
 References:
