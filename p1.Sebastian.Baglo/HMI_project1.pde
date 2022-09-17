@@ -41,6 +41,8 @@ void setup() {
 }
 
 void draw() {
+
+  /* @pjs preload="exit_stairs.png,elevator_hotel.png,entrance_x.png,fitness_room.png,reception_icon.png,red_carpet.png,spa_icon.png,bed_room_x.png"; */
   background(163, 154, 116);
   
   for (int i = 420; i > 100; i = i-80) {
