@@ -6,11 +6,11 @@ Does this work. Test test NYYY
 <head>
 <script src="/processing.min.js" type="text/javascript"></script>
 
-<canvas data-processing-sources="Button_class_test.pde></canvas>
+<canvas data-processing-sources="Button_class_test.pde"></canvas>
 </head>
 
 References:
-                                 HMI_project1.pde elevator_hotel.png entrance_x.png exit_stairs.png fitness_room.png reception_icon.png red_carpet.png spa_icon.png bed_room_x.png"
+                                 HMI_project1.pde elevator_hotel.png entrance_x.png exit_stairs.png fitness_room.png reception_icon.png red_carpet.png spa_icon.png bed_room_x.png
 
 https://www.subpng.com/png-kkqesl/
 
