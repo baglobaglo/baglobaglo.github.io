@@ -6,7 +6,7 @@ Does this work. Test test Potteeet
 <head>
 <script src="/processing.min.js" type="text/javascript"></script>
 
-<canvas data-processing-sources="/p1.Sebastian.Baglo/HMI_project1.pde"></canvas>
+<canvas data-processing-sources="/p1.Sebastian.Baglo/HMI_project1.pde elevator_hotel.png entrance_x.png exit_stairs.png fitness_room.png reception_icon.png red_carpet.png spa_icon.png bed_room_x.png"></canvas>
 </head>
 
 References:
