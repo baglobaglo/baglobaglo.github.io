@@ -2,7 +2,7 @@
 GitHub page for project 1 in CS3366.
 
 
-Does this work. Test test Potteeet
+Does this work. Test test NY
 <head>
 <script src="/processing.min.js" type="text/javascript"></script>
 
