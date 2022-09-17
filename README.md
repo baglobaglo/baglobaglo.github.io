@@ -27,4 +27,4 @@ https://no.depositphotos.com/vector-images/elevator-pitch.html
 https://www.vecteezy.com/free-vector/sliding-door
 
 
-![Test_recording](https://user-images.githubusercontent.com/98468200/190879187-d91787f6-33ed-4c4f-94c1-f653d4216751.gif)
+![Test_recording](https://user-images.githubusercontent.com/98468200/190879187-d91787f6-33ed-4c4f-94c1-f653d4216751.gif =500x500)
