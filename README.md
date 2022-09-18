@@ -25,9 +25,8 @@ Creative Commons Creative Commons: By Attribution 3.0 License
 http://creativecommons.org/licenses/by/3.0/
 
 
-
-
 My video
-<iframe width="750" height="800" src="https://user-images.githubusercontent.com/98468200/190886722-875fb3b5-068e-4c5c-8865-4f7d280ebc11.mov" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://user-images.githubusercontent.com/98468200/190886722-875fb3b5-068e-4c5c-8865-4f7d280ebc11.mov
 
 
