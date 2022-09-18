@@ -18,3 +18,10 @@ https://no.depositphotos.com/vector-images/elevator-pitch.html
 
 https://www.vecteezy.com/free-vector/sliding-door
 
+Elevator music:
+Local Forecast – Elevator by Kevin MacLeod | https://incompetech.com/
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
+
+
