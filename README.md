@@ -39,15 +39,6 @@ Creative Commons Creative Commons: By Attribution 3.0 License
 http://creativecommons.org/licenses/by/3.0/
 
 
-My video
-
-
-
-
-
-
-https://user-images.githubusercontent.com/98468200/191144845-f8d9ab94-edd2-4014-961a-8aecccc7f40b.mov
-
 
 
 
