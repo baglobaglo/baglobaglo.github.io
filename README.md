@@ -3,7 +3,11 @@ GitHub page for project 1 in CS3366.
 
 <h3> C part: </h3>
 Elevator interface - Hyatt Place Lubbock
-![Elevator_project_1](https://user-images.githubusercontent.com/98468200/191781678-0f1af2ca-8bb8-4a58-b631-9b5698338e6d.jpg = 1000x1333)
+
+<img src="https://user-images.githubusercontent.com/98468200/191781678-0f1af2ca-8bb8-4a58-b631-9b5698338e6d.jpg" width="1000" height="1350"/>
+</br>
+</br>
+</br>
 
 
 <h3> B part: </h3>
