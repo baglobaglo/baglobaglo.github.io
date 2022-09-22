@@ -3,10 +3,13 @@ GitHub page for project 1 in CS3366.
 
 <h3> C part: </h3>
 Elevator interface - Hyatt Place Lubbock
-![Elevator_project_1](https://user-images.githubusercontent.com/98468200/191781678-0f1af2ca-8bb8-4a58-b631-9b5698338e6d.jpg)
+![Elevator_project_1](https://user-images.githubusercontent.com/98468200/191781678-0f1af2ca-8bb8-4a58-b631-9b5698338e6d.jpg = 1000x1333)
 
 
-
+<h3> B part: </h3>
+</br>
+</br>
+</br>
 
 References:
 
@@ -15,7 +18,6 @@ https://www.subpng.com/png-kkqesl/
 https://lovepik.com/image-450044944/vector-reception-icon.html
 
 https://www.nicepng.com/ourpic/u2w7q8y3r5u2q8w7_sleeping-icon-pencil-and-sleeping-in-bed-icon/
-
 
 https://www.freepik.com/free-icon/spa_15489172.htm
 
