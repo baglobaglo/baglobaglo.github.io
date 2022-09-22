@@ -4,8 +4,7 @@ GitHub page for project 1 in CS3366.
 <h3> C part: </h3>
 Elevator interface - Hyatt Place Lubbock
 
-<img src="https://user-images.githubusercontent.com/98468200/191781678-0f1af2ca-8bb8-4a58-b631-9b5698338e6d.jpg" width="450" height="600"/>
-<img src="https://user-images.githubusercontent.com/98468200/191792074-ce4221ca-633d-46de-95cc-771cc74358c7.gif" width="450" height="600" />
+<img src="https://user-images.githubusercontent.com/98468200/191781678-0f1af2ca-8bb8-4a58-b631-9b5698338e6d.jpg" width="450" height="600"/> <img src="https://user-images.githubusercontent.com/98468200/191792074-ce4221ca-633d-46de-95cc-771cc74358c7.gif" width="450" height="600" />
 
 
 
