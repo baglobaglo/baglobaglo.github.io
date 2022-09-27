@@ -1,6 +1,7 @@
 import processing.sound.*;
 SoundFile file;
 
+//declaring some constant that i use alot for position and colors
 String[] floors = {"R", "2", "3", "4", "5"};
 int[] pos_y_floor_text = {508, 428, 348, 268, 188};
 float circle_x_pos_left = 120;
@@ -29,9 +30,10 @@ float Fourth_y_low_bottom = 295;
 float Fifth_y_high_top = 150;
 float Fifth_y_low_bottom = 215;
 
-//470
+//Start position elevator
 int yElevator = 470;
 
+//boolearns for if buttons is pressed or not
 boolean pressed_R = false;
 boolean pressed_2 = false;
 boolean pressed_3 = false;
@@ -43,18 +45,19 @@ boolean pressed_close = false;
 
 
 
-
+//setup function. Starting the elevator music
 void setup() {
-  size(700, 750);  
+  size(725, 750);  
   file = new SoundFile(this, "Elevator-music.mp3");
   file.amp(0.1);
   file.play();
 }
 
 void draw() {
-  //background(163, 154, 116);
-  background(140, 140, 140);
   
+  background(153);
+  
+  //making the different buttons in the different for loops
   for (int i = 420; i > 100; i = i-80) {
     fill(outer_circle_color);
     circle(circle_x_pos_left, i, 62);
@@ -75,6 +78,7 @@ void draw() {
     text(floors[i], floor_text_x_pos, pos_y_floor_text[j]);
   }
    
+   //buttons for open and close elevator door
    pushStyle();
    fill(open_door_color);
    circle(circle_x_pos_left-40, 580, 62);
@@ -92,10 +96,7 @@ void draw() {
    circle(circle_x_pos_left, 675, 55);
    popStyle();
    
-   //xleft 260 right 300
-   //ytop 575 bottom 615
-   
-   
+   //icons/images for det different buttons / visuals. The name will describe the rest
     PImage open_elevator;
     open_elevator = loadImage("left.png");
     image(open_elevator, circle_x_pos_left-72, 552, 60, 55);
@@ -120,7 +121,7 @@ void draw() {
   
   
   
-  //  General -------------------------------//
+  //  General icons and smaller things -------------------------------//
   
   PImage exit_stairs;
     exit_stairs = loadImage("exit_stairs.png");
@@ -136,7 +137,8 @@ void draw() {
       image(img_bed_room, 310, 328, 60, 48);
       image(img_bed_room, 310, 248, 60, 48);
       image(img_bed_room, 310, 168, 60, 48);
-   //405
+   
+ //Room numbers and different information for different floors
    pushStyle();
    textSize(20);
    text("Rooms", 393, 428);
@@ -158,14 +160,14 @@ void draw() {
    
    
    text("Activate alarm", 173, 660);
-   text("by pressing", 186, 680);
+   text("by clicking once", 165, 680);
    text("then wait", 193, 702);
    text("--", 280, 702);
    text("--", 175, 702);
    popStyle();
    
    
- //Alarm
+ //Alarm ---------------------- //
  
    if(pressed_A) {
   pressed_R = false;
@@ -185,7 +187,7 @@ void draw() {
  
       
   
-  // RESEPTION ----------------------------- //
+  // RESEPTION and entrance ----------------------------- //
     
     PImage img_R;
     img_R = loadImage("reception_icon.png");
@@ -202,6 +204,9 @@ void draw() {
     text("Reception", 380, 508);
     popStyle();
     
+    
+    //Different if statements to decide if the elvator is going up or down
+    //and to give visual feedback to the user
     if (pressed_R) {
       if( yElevator > 470) {
         fill(255, 255, 0);
@@ -320,10 +325,10 @@ void draw() {
       
       //FOURTH FLOOR ----------------------------- //
       
-      PImage img_3;
-    img_3 = loadImage("fitness_room.png");
+      PImage img_fitness;
+    img_fitness = loadImage("fitness_room.png");
     tint(163, 154, 116, 255);
-    image(img_3, 474, 251, 80, 50);
+    image(img_fitness, 474, 251, 80, 50);
     
       if (pressed_4) {
         if ( yElevator > 230) {
@@ -426,8 +431,8 @@ void draw() {
  line(280, 135, 280, 535);
  popStyle();
  
- //elevator
- //move elevator faster, spa up a floor, sound? exit? done.
+ //elevator icon and elevator movement
+ 
  pushStyle();
  strokeWeight(2);
  line(235, 135, 235, yElevator);
@@ -438,18 +443,13 @@ void draw() {
     image(img_elevator, 194, yElevator-18, 83, 88);
  
  pushStyle();
-  stroke(140);
+  stroke(153);
   strokeWeight(5);
   line(483, 535, 542, 535);
   popStyle();
   
   
-  /*PImage img_red_carped;
-    img_red_carped = loadImage("red_carpet.png");
-    tint(163, 154, 116, 255);
-    image(img_red_carped, 455, 505, 150, 100); */
-  
-  //blind people numbers
+  //numbers for blind people
     pushStyle();
     stroke(125);
     
@@ -477,7 +477,7 @@ void draw() {
 
 
 
-
+//logic for when you press the different buttons
 void mouseClicked() {
   
    PImage open_elevator;
