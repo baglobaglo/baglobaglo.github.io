@@ -55,7 +55,14 @@ void setup() {
 
 void draw() {
   
-  background(153);
+  
+  background(50);
+  
+
+   PImage glass_background;
+    glass_background = loadImage("glass_background.jpeg");
+    tint(250, 250, 250);
+    image(glass_background, 35 , 0, 655, 750);
   
   //making the different buttons in the different for loops
   for (int i = 420; i > 100; i = i-80) {
@@ -140,7 +147,9 @@ void draw() {
    
  //Room numbers and different information for different floors
    pushStyle();
+   fill(0);
    textSize(20);
+   
    text("Rooms", 393, 428);
    text("200 - 224", 385, 445);
    text("Rooms", 393, 348);
