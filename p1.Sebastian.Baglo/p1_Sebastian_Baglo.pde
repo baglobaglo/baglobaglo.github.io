@@ -1,7 +1,7 @@
 import processing.sound.*;
 SoundFile file;
 
-//declaring some constant that i use alot for position and colors
+//declaring some constant that I use alot for position and colors
 String[] floors = {"R", "2", "3", "4", "5"};
 int[] pos_y_floor_text = {508, 428, 348, 268, 188};
 float circle_x_pos_left = 120;
