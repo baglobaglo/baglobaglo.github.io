@@ -57,12 +57,12 @@ void draw() {
   
   
   background(50);
-  
+  //215
+  pushStyle();
+  fill(215);
+  rect(35, 0, 655, 750);
+  popStyle();
 
-   PImage glass_background;
-    glass_background = loadImage("glass_background.jpeg");
-    tint(250, 250, 250);
-    image(glass_background, 35 , 0, 655, 750);
   
   //making the different buttons in the different for loops
   for (int i = 420; i > 100; i = i-80) {
@@ -227,7 +227,6 @@ void draw() {
         text("R", floor_text_x_pos, 508);
         
         yElevator --;
-        delay(5);
         if ( yElevator == 470) {
           exec("say", "Reception");
           pressed_R = !pressed_R;
@@ -243,7 +242,7 @@ void draw() {
         text("R", floor_text_x_pos, 508);
         
         yElevator ++;
-        delay(5);
+        
         if ( yElevator == 470) {
           exec("say", "Reception");
           pressed_R = !pressed_R;
@@ -270,7 +269,6 @@ void draw() {
           text("2", floor_text_x_pos, 428);
           
           yElevator --;
-          delay(10);
           if ( yElevator == 390) {
             exec("say", "Second floor");
             pressed_2 = !pressed_2;
@@ -285,7 +283,6 @@ void draw() {
           text("2", floor_text_x_pos, 428);
           
           yElevator ++;
-          delay(10);
           if ( yElevator == 390) {
             exec("say", "Second floor");
             pressed_2 = !pressed_2;
@@ -306,7 +303,7 @@ void draw() {
           text("3", floor_text_x_pos, 348);
           
           yElevator --;
-          delay(5);
+          
           if ( yElevator == 310) {
             exec("say", "Third floor");
             pressed_3 = !pressed_3;
@@ -323,7 +320,7 @@ void draw() {
           text("3", floor_text_x_pos, 348);
           
           yElevator ++;
-          delay(5);
+          
           if ( yElevator == 310) {
             exec("say", "Third floor");
             pressed_3 = !pressed_3;
@@ -350,7 +347,6 @@ void draw() {
           text("4", floor_text_x_pos, 268);
           
           yElevator --;
-          delay(5);
           if ( yElevator == 230) {
             exec("say", "Fourth floor");
             pressed_4 = !pressed_4;
@@ -367,7 +363,6 @@ void draw() {
           text("4", floor_text_x_pos, 268);
           
           yElevator ++;
-          delay(5);
           if ( yElevator == 230) {
             exec("say", "Fourth floor");
             pressed_4 = !pressed_4;
@@ -388,7 +383,6 @@ void draw() {
           text("5", floor_text_x_pos, 188);
           
           yElevator --;
-          delay(5);
           if ( yElevator == 150) {
             exec("say", "Fifth floor");
             pressed_5 = false;
@@ -405,7 +399,7 @@ void draw() {
           text("5", floor_text_x_pos, 188);
           
           yElevator ++;
-          delay(5);
+          
           if ( yElevator == 150) {
             exec("say", "Fifth floor");
             pressed_5 = false;
@@ -452,7 +446,7 @@ void draw() {
     image(img_elevator, 194, yElevator-18, 83, 88);
  
  pushStyle();
-  stroke(153);
+  stroke(215);
   strokeWeight(5);
   line(483, 535, 542, 535);
   popStyle();
